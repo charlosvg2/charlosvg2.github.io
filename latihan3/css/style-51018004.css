@@ -1,0 +1,56 @@
+.heading {
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+body{
+  background-color:#FF9966;
+  color:#fff;
+  font-family: sans-serif;
+}
+
+.link {
+  list-style-type: none;
+}
+
+.info{
+  width: 100px;
+  background-color: #CC0099;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.menu {
+  width: 300px;
+  background-color: #CCFFCC;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.gambar-resep ( width:350px; )
+
+a:link, a:visited {
+  color: #FFCCFF;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FFCCFF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1{
+  color:pink;
+}
+a.eksternal {
+  color:lightpink;
+}

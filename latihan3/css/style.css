@@ -1,0 +1,60 @@
+.heading {
+  text-align: center;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+body{
+  background-color:#00bfba;
+  color:#fff;
+  font-family: sans-serif;
+}
+
+.link {
+  list-style-type: none;
+}
+
+.info{
+  width: 100px;
+  background-color: #fb0;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.biodata{
+  color="yellow"
+}
+
+.menu {
+  width: 300px;
+  background-color: #fb0;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+
+.gambar-resep ( width:350px; )
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ff0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h1{
+  color:red;
+}
+a.eksternal {
+  color:green;
+}
