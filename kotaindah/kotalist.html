@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Special City</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon"></head>
+  <body>
+    <nav class="judul" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="kotalist.html" class="brand-logo black-text">
+          <img src="img/logokotaindah.png" alt="logo" style="height:40px;"> Special City</a>
+          <ul class="right hide-on-med-and-down">
+
+            <li><a href="kotalist.html" class="black-text">HOME</a></li>
+            <li><a href="about.html" class="black-text">About</a></li>
+
+          </ul>
+
+          <ul id="nav-mobile" class="sidenav judul">
+            <li><a href="kotalist.html" class="black-text">HOME</a></li>
+            <li><a href="about.html" class="black-text">About</a></li>
+          </ul>
+          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="img/bg1.jpg"> <!-- random image -->
+          </li>
+          <li>
+            <img src="img/bg2.jpg"> <!-- random image -->
+          </li>
+          <li>
+            <img src="img/bg3.jpg"> <!-- random image -->
+          </li>
+        </ul>
+       </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="kotalist">
+        </div>
+      </div>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">
+        <p class="m-0 center black-text">Copyright &copy; Special city</p>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/api.js"></script>
+
+    <!-- <script type="text/javascript" src="js/loadpage.js"></script> -->
+    <script type="text/javascript" src="js/database.js"></script>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+          var urlParams = new URLSearchParams(window.location.search);
+          var ID = urlParams.get("ID");
+          getKota(ID);
+        });
+      </script>
+
+  </body>
+</html>
