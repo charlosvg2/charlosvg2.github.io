@@ -1,0 +1,108 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+ body {
+    font-family: 'Playfair Display', serif;
+ }
+
+nav ul a,
+nav .brand-logo {
+  color: 	#FFFFFF;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #509931;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #a4ebf3;
+}
+
+.bluechef {
+  background-color: #0000bf;
+}
+
+.bluechef-text {
+  color: #0000bf;
+}
+
+.judul, .button1{
+  background-color: #a4ebf3;
+}
+
+.gmbr{
+  width: 450px;
+}
+
+h5{
+  color: black;
+}
+
+
+h3, .data,h2{
+  color: #1e212d;
+}
+
+.profil{
+  height: 400px;
+}
+
+ket{
+  color: 	#FFFFFF;
+  font-weight: bold;
+}
+
+.tombol{
+
+}
+
+.kota{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
